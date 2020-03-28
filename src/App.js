@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ResponsiveGeoMap from "./components/ResponsiveGeoMap";
+import data from "./data.json";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header>
+        <h3>
+          Map of Cannabis Regulations Worldwide{" "}
+          <img src="logo192.png" alt="logo" />
+        </h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Data parsed from{" "}
+          <a href="https://en.wikipedia.org/wiki/Legality_of_cannabis">
+            Wikipedia
+          </a>
+          . (
+          <a href="mailto:sueann.ioanis@gmail.com?Subject=Cannabis%20Map%20Data">
+            Email
+          </a>{" "}
+          if you see a discrepancy. <i>Last Updated: (3/28/2020)</i>{" "}
+          <a href="https://github.com/sioanis">@sioanis</a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <div className="map">
+        <ResponsiveGeoMap data={data} />
+      </div>
     </div>
   );
 }
