@@ -1,6 +1,6 @@
 import React from "react";
 import ResponsiveGeoMap from "./components/ResponsiveGeoMap";
-import data from "./data.json";
+import data from "./data3292020.json";
 import "./App.css";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <a href="mailto:sueann.ioanis@gmail.com?Subject=Cannabis%20Map%20Data">
             Email
           </a>{" "}
-          if you see a discrepancy. <i>Last Updated: (3/28/2020)</i>{" "}
+          if you see a discrepancy. <i>Last Updated: (3/28/2020)</i> by{" "}
           <a href="https://github.com/sioanis">@sioanis</a>
         </p>
       </header>
