@@ -5,17 +5,17 @@ import countries from "../countries";
 const formatValue = data => {
   switch (Math.floor(data)) {
     case 0:
-      return "Illegal";
+      return "Illegal.";
     case 1:
-      return "Illegal but often unenforced";
+      return "Illegal but often unenforced.";
     case 2:
-      return "Illegal but decriminalized";
+      return "Illegal but decriminalized.";
     case 3:
-      return "Some parts legal for recreational use or as authorized by a physician (*)";
+      return "Not completely legal. (*)";
     case 4:
-      return "Legal (*)";
+      return "Legal, some regulations. (*)";
     case 5:
-      return "Completely Legal";
+      return "Completely legal.";
     default:
       return "Unknown";
   }
