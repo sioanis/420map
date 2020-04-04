@@ -20,8 +20,8 @@ function App() {
           <a href="mailto:sueann.ioanis@gmail.com?Subject=Cannabis%20Map%20Data">
             Email
           </a>{" "}
-          if you see a discrepancy. <i>Last Updated: (3/28/2020)</i> by{" "}
-          <a href="https://github.com/sioanis">@sioanis</a>
+          if you see a discrepancy or update it <a href="https://github.com/sioanis/420map">on github</a>. <i>Last Updated: (3/28/2020)</i> by{" "} @sioanis
+          
         </p>
       </header>
       <div className="map">
