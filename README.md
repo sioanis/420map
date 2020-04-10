@@ -1,4 +1,9 @@
-420map.live
+# Map of Cannabis Regulations Worldwide
+
+Preview: https://420map.live
+
+This map was built using [Nivo Cloropleth](https://nivo.rocks/choropleth/), data scraped from [Wikipedia](https://en.wikipedia.org/wiki/Legality_of_cannabis), and [React](https://reactjs.org/).
+
 
 ## Available Scripts
 
