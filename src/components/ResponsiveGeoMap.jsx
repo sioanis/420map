@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useState } from "react";
 import { ResponsiveChoropleth } from "@nivo/geo";
 import countries from "../countries";
 
-const formatValue = data => {
+const formatValue = (data) => {
   switch (Math.floor(data)) {
     case 0:
       return "Illegal.";
@@ -37,22 +37,24 @@ function useWindowSize() {
 const ResponsiveGeoMap = ({ data }) => {
   const [width] = useWindowSize();
   return (
-    <ResponsiveChoropleth
-      width={width}
-      data={data}
-      features={countries.features}
-      margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
-      colors="nivo"
-      domain={[0, 5]}
-      projectionScale={160}
-      unknownColor="#666666"
-      label="properties.name"
-      valueFormat={formatValue}
-      projectionTranslation={[0.5, 0.5]}
-      projectionRotation={[0, 0, 0]}
-      borderWidth={0.5}
-      borderColor="#152538"
-    />
+    <div className="map">
+      <ResponsiveChoropleth
+        width={width}
+        data={data}
+        features={countries.features}
+        margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
+        colors="nivo"
+        domain={[0, 5]}
+        projectionScale={160}
+        unknownColor="#666666"
+        label="properties.name"
+        valueFormat={formatValue}
+        projectionTranslation={[0.5, 0.5]}
+        projectionRotation={[0, 0, 0]}
+        borderWidth={0.5}
+        borderColor="#152538"
+      />
+    </div>
   );
 };
 
