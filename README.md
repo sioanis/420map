@@ -2,7 +2,7 @@
 
 Preview: https://420map.live
 
-This map was built using [Nivo Cloropleth](https://nivo.rocks/choropleth/), data scraped from [Wikipedia](https://en.wikipedia.org/wiki/Legality_of_cannabis), and [React](https://reactjs.org/).
+This map was built using [React](https://reactjs.org/), [Nivo Cloropleth](https://nivo.rocks/choropleth/), and data scraped from [Wikipedia](https://en.wikipedia.org/wiki/Legality_of_cannabis).
 
 ## Available Scripts
 
