@@ -9,10 +9,7 @@ const Header = () => (
       Data parsed from{" "}
       <a href="https://en.wikipedia.org/wiki/Legality_of_cannabis">Wikipedia</a>
       . If you see a discrepancy,{" "}
-      <a href="mailto:sueann.ioanis@gmail.com?Subject=Cannabis%20Map%20Data">
-        email
-      </a>{" "}
-      or <a href="https://github.com/sioanis/420map/issues">submit an issue</a>.{" "}
+      <a href="https://github.com/sioanis/420map/issues">submit an issue</a>.{" "}
       <i>Last Updated: (5/2/2020)</i> by{" "}
       <a href="https://github.com/sioanis/">@sioanis</a>.
     </p>
