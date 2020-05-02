@@ -2,8 +2,6 @@
 
 Preview: https://420map.live
 
-This map was built using [React](https://reactjs.org/), [Nivo Cloropleth](https://nivo.rocks/choropleth/), and data scraped from [Wikipedia](https://en.wikipedia.org/wiki/Legality_of_cannabis).
-
 Legend:
 
 ```
@@ -25,6 +23,7 @@ https://docs.google.com/spreadsheets/d/1_Zxby5oyi9Uo5JQorgYmp6Xi0OfizrkRgu3dWznP
 
 https://en.wikipedia.org/wiki/Legality_of_cannabis
 
+This map was built using [React](https://reactjs.org/), [Nivo Cloropleth](https://nivo.rocks/choropleth/), and data scraped from [Wikipedia](https://en.wikipedia.org/wiki/Legality_of_cannabis).
 
 ## Available Scripts
 
