@@ -13,7 +13,8 @@ const Header = () => (
         email
       </a>{" "}
       or <a href="https://github.com/sioanis/420map/issues">submit an issue</a>.{" "}
-      <i>Last Updated: (3/28/2020)</i> by @sioanis
+      <i>Last Updated: (5/2/2020)</i> by{" "}
+      <a href="https://github.com/sioanis/">@sioanis</a>.
     </p>
   </header>
 );

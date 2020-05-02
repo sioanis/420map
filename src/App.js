@@ -1,7 +1,7 @@
 import React from "react";
 import ResponsiveGeoMap from "./components/ResponsiveGeoMap";
 import Header from "./components/Header";
-import data from "./data3292020.json";
+import data from "./data/05022020.json";
 import "./App.css";
 
 function App() {
