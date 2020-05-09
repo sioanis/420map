@@ -1,0 +1,14 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Automated site scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Sue Ioanis",
+  "license": "ISC",
+  "dependencies": {
+    "website-scraper": "^4.2.1"
+  }
+}
