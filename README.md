@@ -21,6 +21,10 @@ default:
   return "Unknown";
 ```
 
+Reference `client/src/data` to view historical data.
+
+https://docs.google.com/spreadsheets/d/1_Zxby5oyi9Uo5JQorgYmp6Xi0OfizrkRgu3dWznPZ7g/edit#gid=0
+
 https://en.wikipedia.org/wiki/Legality_of_cannabis
 
 ## Available Scripts
