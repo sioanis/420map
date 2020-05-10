@@ -4,6 +4,8 @@ This map was built using [React](https://reactjs.org/), [Nivo Cloropleth](https:
 
 Preview: https://420map.live
 
+Reference `client/src/data` to view historical data by date.
+
 Legend:
 
 ```
@@ -20,8 +22,6 @@ case 4:
 default:
   return "Unknown";
 ```
-
-Reference `client/src/data` to view historical data by date.
 
 https://docs.google.com/spreadsheets/d/1_Zxby5oyi9Uo5JQorgYmp6Xi0OfizrkRgu3dWznPZ7g/edit#gid=0
 
