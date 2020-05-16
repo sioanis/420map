@@ -4,6 +4,8 @@ This map was built using [React](https://reactjs.org/), [Nivo Cloropleth](https:
 
 Preview: https://420map.live
 
+<img src="https://420map.live/map.png" />
+
 Legend:
 
 ```

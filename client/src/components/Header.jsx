@@ -6,7 +6,7 @@ const Header = () => (
       Map of Cannabis Regulations Worldwide <img src="logo192.png" alt="logo" />
     </h3>
     <p>
-      Data parsed from{" "}
+      Data collected and parsed from{" "}
       <a href="https://en.wikipedia.org/wiki/Legality_of_cannabis">Wikipedia</a>
       . If you see a discrepancy,{" "}
       <a href="https://github.com/sioanis/420map/issues">submit an issue</a>.{" "}
