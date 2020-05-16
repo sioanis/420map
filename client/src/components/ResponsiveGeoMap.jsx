@@ -45,11 +45,11 @@ const ResponsiveGeoMap = ({ data }) => {
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
         colors="nivo"
         domain={[0, 5]}
-        projectionScale={160}
+        projectionScale={190}
         unknownColor="#666666"
         label="properties.name"
         valueFormat={formatValue}
-        projectionTranslation={[0.5, 0.5]}
+        projectionTranslation={[0.5, 0.62]}
         projectionRotation={[0, 0, 0]}
         borderWidth={0.5}
         borderColor="#152538"
