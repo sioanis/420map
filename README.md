@@ -1,10 +1,10 @@
-# Map of Cannabis Regulations Worldwide
+# Worldwide map of cannabis regulations.
 
 This map was built using [React](https://reactjs.org/), [Nivo Cloropleth](https://nivo.rocks/choropleth/), and data scraped from [Wikipedia](https://en.wikipedia.org/wiki/Legality_of_cannabis).
 
 Preview: https://420map.live
 
-<img src="https://420map.live/map.png" />
+<img src="https://cdn-images-1.medium.com/max/1600/1*AZGZ41gDIoqoAvVqf_SWxg.png" />
 
 Legend:
 
@@ -23,7 +23,6 @@ default:
   return "Unknown";
 ```
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*euoOlinjR2qmJXKABBxgng.png" />
 https://en.wikipedia.org/wiki/Legality_of_cannabis
 
 ## Available Scripts
