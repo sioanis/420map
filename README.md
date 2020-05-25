@@ -5,6 +5,7 @@ This map was built using [React](https://reactjs.org/), [Nivo Cloropleth](https:
 Preview: https://420map.live
 
 <img src="https://420map.live/map.png" />
+<img src="https://cdn-images-1.medium.com/max/1600/1*euoOlinjR2qmJXKABBxgng.png" />
 
 Legend:
 
