@@ -11,7 +11,7 @@ const formatValue = (data) => {
     case 2:
       return "Illegal but decriminalized.";
     case 3:
-      return "Not completely legal. (*)";
+      return "Legal in some areas. (*)";
     case 4:
       return "Legal, some regulations. (*)";
     case 5:
@@ -34,7 +34,7 @@ function useWindowSize() {
   return size;
 }
 
-const ResponsiveGeoMap = ({ data }) => {
+const ResponsiveGeoMap = ({ data, isDarkMode }) => {
   const [width] = useWindowSize();
   return (
     <div className="map">
@@ -43,16 +43,16 @@ const ResponsiveGeoMap = ({ data }) => {
         data={data}
         features={countries.features}
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
-        colors="nivo"
+        colors={isDarkMode ? "purples" : "nivo"}
         domain={[0, 5]}
         projectionScale={190}
-        unknownColor="#666666"
+        unknownColor="#94a1b2"
         label="properties.name"
         valueFormat={formatValue}
         projectionTranslation={[0.5, 0.62]}
         projectionRotation={[0, 0, 0]}
         borderWidth={0.5}
-        borderColor="#152538"
+        borderColor={isDarkMode ? "#fffffe" : "#000"}
       />
     </div>
   );

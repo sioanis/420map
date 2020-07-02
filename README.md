@@ -1,24 +1,26 @@
-# Worldwide map of cannabis regulations.
-
-This map was built using [React](https://reactjs.org/), [Nivo Cloropleth](https://nivo.rocks/choropleth/), and data scraped from [Wikipedia](https://en.wikipedia.org/wiki/Legality_of_cannabis).
+# Worldwide choropleth map of cannabis regulations.
 
 Preview: https://420map.live
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*AZGZ41gDIoqoAvVqf_SWxg.png" />
+<img src="https://cdn-images-1.medium.com/max/1600/1*RZYeP4DMi-9pyUelR_PvNA.png" />
+
+This map was built using [React](https://reactjs.org/), [Nivo Cloropleth](https://nivo.rocks/choropleth/), and data scraped from [Wikipedia](https://en.wikipedia.org/wiki/Legality_of_cannabis).
 
 Legend:
 
 ```
 case 0:
-  return "Illegal";
+  return "Illegal.";
 case 1:
-  return "Illegal but often unenforced";
+  return "Illegal but often unenforced.";
 case 2:
-  return "Illegal but decriminalized";
+  return "Illegal but decriminalized.";
 case 3:
-  return "Legal as authorized by a physician";
+  return "Legal in some areas. (*)";
 case 4:
-  return "Legal";
+  return "Legal, some regulations. (*)";
+case 5:
+  return "Completely legal.";
 default:
   return "Unknown";
 ```
