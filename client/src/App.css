@@ -1,3 +1,31 @@
+.App.dark {
+  background: #16161a;
+}
+
+header,
+header a {
+  color: #000;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+@media only screen and (max-width: 729px) {
+  header {
+    padding: 20px;
+  }
+
+  .switch {
+    display: none !important;
+  }
+}
+
+.App.dark header,
+.App.dark header a {
+  color: #fffffe;
+}
+
 .App {
   display: grid;
   text-align: center;
@@ -15,4 +43,39 @@ p {
 
 .map {
   height: 100vh;
+}
+
+.switch {
+  width: 45px;
+  height: 25px;
+  border-radius: 50px;
+  padding: 5px;
+  display: flex;
+  cursor: pointer;
+  padding-right: 5px;
+  padding-left: 5px;
+  align-items: center;
+}
+
+.switch.on {
+  background-color: #dddddd;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.switch.on div {
+  background-color: #ffffff;
+}
+
+.switch.off {
+  background-color: rgb(151, 227, 213);
+  justify-content: flex-start;
+}
+
+.switch div {
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.02);
 }
